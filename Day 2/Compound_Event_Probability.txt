@@ -1,5 +1,3 @@
-
-# Day 2: Compound Event Probability
 There are 3 urns labeled X, Y, and Z.
 Urn X contains 4 red balls and 3 black balls.
 Urn Y contains 5 red balls and 4 black balls.
