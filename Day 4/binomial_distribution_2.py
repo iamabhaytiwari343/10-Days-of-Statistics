@@ -1,12 +1,8 @@
 import math
-
-
 def binomial_prob(n, p, x):
     b = (math.factorial(n)/(math.factorial(x)*math.factorial(n-x))) * \
         (p**x)*((1-p)**(n-x))
     return (b)
-
-
 reject_percent, n = map(float, '12 10'.split())
 p = reject_percent/100
 b = 0
