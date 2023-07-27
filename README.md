@@ -1,4 +1,4 @@
-# statistic important concepts
+# Statistic important concepts
 *** 
 ### Mean
 In statistics, the term "mean" refers to the average value of a set of numbers. It is one of the most commonly used measures of central tendency. The mean is calculated by summing up all the values in the dataset and then dividing that sum by the total number of data points.
@@ -38,3 +38,17 @@ Finding the mode is relatively straightforward. You can do it by counting the oc
 It's worth noting that a dataset can have no mode if all the values occur with the same frequency, or it can be bimodal, trimodal, etc., if it has two, three, or more values with the same highest frequency.
 
 The mode is particularly useful when dealing with categorical or discrete data, such as colors or categories, where calculating a mean or median might not be meaningful. It helps identify the most frequently occurring value, which can provide insights into the central tendency of the dataset.
+
+### Weighted Mean
+
+In statistics, the weighted mean is a variation of the regular arithmetic mean that takes into account the importance or weight of each data point in the dataset. It is used when some values in the dataset are more relevant or have a greater impact on the overall average than others.
+
+To calculate the weighted mean, you multiply each data point by its corresponding weight, sum up these products, and then divide the total by the sum of the weights. Mathematically, it can be represented as:
+
+Weighted Mean (μ) = (Σ (wᵢ * xᵢ)) / (Σ wᵢ)
+
+Where:
+
+* μ is the weighted mean.
+* wᵢ is the weight of the i-th data point.
+* xᵢ is the i-th data point.
