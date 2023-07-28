@@ -1,15 +1,15 @@
-# Statistic important concepts
+# Statistic Important Concepts
 *** 
 ### Mean
-In statistics, the term "mean" refers to the average value of a set of numbers. It is one of the most commonly used measures of central tendency. The mean is calculated by summing up all the values in the dataset and then dividing that sum by the total number of data points.
+In statistics, the term ** "mean" ** refers to the average value of a set of numbers. It is one of the most commonly used measures of central tendency. The mean is calculated by summing up all the values in the dataset and then dividing that sum by the total number of data points.
 
 For a given dataset of n elements, the mean (often denoted by μ) is computed as follows:
 
-Mean (μ) = (Sum of all values) / (Number of values)
+** Mean (μ) = (Sum of all values) / (Number of values) **
 
 Mathematically, it can be represented as:
 
-μ = (x₁ + x₂ + x₃ + ... + xₙ) / n
+** μ = (x₁ + x₂ + x₃ + ... + xₙ) / n **
 
 where x₁, x₂, x₃, ..., xₙ are the individual values in the dataset, and n is the total number of values.
 
@@ -45,10 +45,35 @@ In statistics, the weighted mean is a variation of the regular arithmetic mean t
 
 To calculate the weighted mean, you multiply each data point by its corresponding weight, sum up these products, and then divide the total by the sum of the weights. Mathematically, it can be represented as:
 
-Weighted Mean (μ) = (Σ (wᵢ * xᵢ)) / (Σ wᵢ)
+** Weighted Mean (μ) = (Σ (wᵢ * xᵢ)) / (Σ wᵢ) **
 
 Where:
 
 * μ is the weighted mean.
 * wᵢ is the weight of the i-th data point.
 * xᵢ is the i-th data point.
+
+### Uses of Mean Median Mode 
+In data analytics, the concepts of mean, median, mode, and weighted mean play essential roles in analyzing and summarizing datasets. Each of these measures serves specific purposes and can provide valuable insights into the data under examination. Here are some common uses of these concepts in data analytics:
+
+Mean:
+
+Central Tendency: The mean is used to determine the central value around which the data tends to cluster. It provides a measure of the "typical" value in the dataset.
+Data Summary: The mean can be used to summarize the overall average of a continuous dataset. For example, it is used to calculate average sales, average test scores, average temperature, etc.
+Time Series Analysis: The mean is often used in calculating moving averages to smooth out fluctuations and identify trends over time.
+Outlier Detection: In some cases, extreme values (outliers) can significantly impact the mean, making it useful for detecting outliers in the data.
+Median:
+
+Robust Measure: The median is less affected by outliers compared to the mean, making it a valuable measure when dealing with datasets that have extreme values.
+Skewed Distributions: In skewed datasets, the median provides a better representation of the central value than the mean, which can be influenced by the skewed tail.
+Ordinal Data: The median is useful when working with ordinal data, where the order of values is essential, but the magnitude between values is not as meaningful.
+Mode:
+
+Categorical Data: The mode is used to find the most frequently occurring category or value in categorical datasets, such as survey responses, colors, or product preferences.
+Multimodal Data: It helps identify multiple peaks or modes in the data, indicating different clusters or patterns.
+Weighted Mean:
+
+Weighted Averages: In situations where some data points are more important than others, the weighted mean is used to calculate the overall average, giving higher significance to the weighted data points.
+Sample Size Adjustment: When working with sample survey data, using the weighted mean helps adjust for different sampling rates or disproportionate representation of certain groups.
+In real-world data analytics, these concepts are often used together to provide a comprehensive understanding of the dataset. Analysts choose the appropriate measure based on the data's characteristics and the specific insights they aim to derive. Whether it's about understanding the central tendency, handling outliers, dealing with categorical data, or incorporating weights, these statistical concepts form the foundation for effective data analysis and decision-making.
+
